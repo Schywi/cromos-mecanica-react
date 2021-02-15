@@ -39,7 +39,7 @@ const Services = (props) => {
                             <a class="button serviceButton" href="#">Saiba mais</a>
                         </div>
                     </div>
-                    <div class="services__items service19" data-aos="fade-in" data-aos-delay="800" >
+                    <div class="services__items service19" data-aos="fade-in" data-aos-delay="200" >
                         <div class="services__items-text">
                             <h6>Para Fundição</h6>
                             <a class="button serviceButton" href="#">Saiba mais</a>
@@ -58,7 +58,7 @@ const Services = (props) => {
                             <a class="button serviceButton" href="#">Saiba mais</a>
                         </div>
                     </div>
-                    <div class="services__items service16" data-aos="fade-in" data-aos-delay="200" >
+                    <div class="services__items service16" data-aos="fade-in" data-aos-delay="800" >
                         <div class="services__items-text">
                             <h6>Para Mineradoras</h6>
                             <a class="button serviceButton" href="#">Saiba mais</a>
