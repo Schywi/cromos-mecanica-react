@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    padding:0;
+    box-sizing: border-box;
+  }
+  
+  ul,a {
+      text-decoration: none;
+      list-style: none;
+  }
+
+  // ! Header section
+  header {
+    background-color: #f8f8f8;
+    text-align: center;
+  }
+
+  .header-contact{
+      height: 2.5rem;
+    background-color: #2e3537;
+    border-bottom: 1px solid #252a2c;
+    color: white;
+      display:flex;
+      justify-content: space-around;
+      align-items: center;
+
+    &__list {
+        display: flex;
+        justify-content: flex-end;
+         
+        &-item{
+                margin-right: 0.8rem;
+        }
+    }
+    
+  }
+  
+  .header-container {
+    width: 90%;
+    height: 3.5rem;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2em 0;
+  }
+  
+  .logo {
+    &__title {
+      font-size: 2rem;
+      letter-spacing: 0.15rem;
+      font-family: "Lora", serif, sans-serif;
+      color: #143774;
+      font-weight: 400;
+      margin: 0;
+    }
+  
+    &__description {
+      font-size: 0.75rem;
+      letter-spacing: 0.2rem;
+      text-transform: uppercase;
+      color: #1792d2;
+      font-weight: 700;
+      margin: 0;
+      text-align: left;
+    }
+  }
+
+
+
+  //* Navigation
+  .nav {
+    &__list {
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      padding: 0;
+    }
+    &__item {
+      margin-left: 2em;
+      padding: 0.25em 0;
+      a {
+        text-decoration: none;
+        font-size: 0.9rem;
+        font-weight: 700;
+        letter-spacing: 0.1rem;
+        color: #717171;
+        text-transform: uppercase;
+        padding: 0.9em 0;
+        text-align: center;
+        display: flex;
+        align-items: center;
+         img {
+           width: 30px;
+           height: 30px;
+         }
+      }
+      a:hover,
+      a:focus {
+        color: #1792d2;
+      }
+    }
+    &__item--active {
+      border-bottom: 2px solid #707070;
+    }
+  }
+
+  //* End of header section */
+
+  //! Banner 
+  .banner {
+    
+    
+      &__title{
+        font-weight: 500;
+        font-size: 3rem;
+
+      }
+      &__subtitle{
+        text-align: center;
+        font-weight: 400;
+        font-size: 1.5rem;
+        padding-bottom: 1rem;
+         
+      }
+  }
+ 
+
+   //* End of banner section */
+
+
+   .wrap-banner {
+     position:relative;
+   }
+//! Budget section
+
+.budget {
+    position: relative;
+    height: 5rem;
+    background: #f8f8f8;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    flex-wrap: wrap;
+
+    &__footer {
+      background: white;
+    }
+   
+    
+
+    &__title{
+        font-weight: 400;
+        color:#717171;
+    }
+    &__link{
+
+    }
+}
+
+   //* End of Budget section */
+

@@ -1,0 +1,128 @@
+.button_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+}
+.button_container a {
+  width: 100%;
+  max-width: 240px;
+  height: 54px;
+  padding: 8px;
+  font-size: 0.8rem;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-shadow: 0 0 0 1px inset rgba(81, 196, 89, 0.3);
+  position: relative;
+  margin: 10px 0;
+}
+.button_container a.white:hover > p {
+  color: #51c459;
+}
+.button_container a.white > p {
+  background: #51c459;
+  color: #0f1923;
+}
+.button_container a.white > p span.base {
+  border: 1px solid transparent;
+}
+.button_container a.transparent:hover > p {
+  color: #51c459;
+}
+.button_container a.transparent:hover > p span.text {
+  box-shadow: 0 0 0 1px #51c459;
+}
+.button_container a.transparent > p {
+  background: #0f1923;
+  color: #51c459;
+}
+.button_container a.transparent > p span.base {
+  border: 1px solid #51c459;
+}
+.button_container a:after, .button_container a:before {
+  content: "";
+  width: 1px;
+  position: absolute;
+  height: 8px;
+  background: #0f1923;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.button_container a:before {
+  right: 0;
+  left: initial;
+}
+.button_container a p {
+  margin: 0;
+  height: 54px;
+  line-height: 54px;
+  box-sizing: border-box;
+  z-index: 1;
+  left: 0;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.button_container a p span.base {
+  box-sizing: border-box;
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  border: 1px solid white;
+}
+.button_container a p span.base:before {
+  content: "";
+  width: 2px;
+  height: 2px;
+  left: -1px;
+  top: -1px;
+  background: #0f1923;
+  position: absolute;
+  transition: 0.3s ease-out all;
+}
+.button_container a p span.bg {
+  left: -5%;
+  position: absolute;
+  background: white;
+  width: 0;
+  height: 100%;
+  z-index: 3;
+  transition: 0.3s ease-out all;
+  transform: skewX(-10deg);
+}
+.button_container a p span.text {
+  z-index: 4;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 36%;
+}
+.button_container a p span.text:after {
+  content: "";
+  width: 4px;
+  height: 4px;
+  right: 0;
+  bottom: 0;
+  background: #0f1923;
+  position: absolute;
+  transition: 0.3s ease-out all;
+  z-index: 5;
+}
+.button_container a:hover {
+  color: #51c459;
+}
+.button_container a:hover span.bg {
+  width: 110%;
+}
+.button_container a:hover span.text:after {
+  background: #51c459;
+}
+
+/*# sourceMappingURL=1.css.map */
