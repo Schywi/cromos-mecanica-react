@@ -15,8 +15,8 @@
     "react-util-kit": "^0.0.14"
   },
   "scripts": {
-    "start:dev": "react-scripts start",
-    "start": "serve -s build" ,
+    
+    "start": "react-scripts start ",
     "sass": "sass --watch src/styles/sass:src/styles/css",
     "build": "react-scripts build",
     "test": "react-scripts test",
