@@ -15,16 +15,17 @@ import Banner from "./components/Banner/Banner";
 import Budget from "./components/Budget/Budget";
 import Impact from "./components/Impact/Impact";
 import Services from "./components/Services/Services";
- 
+import Service from "./components/Services/Service.jsx";
 import About from "./components/About/About";
 import Equipment from "./components/Equipment/Equipment";
 import OurServices from "./components/OurServices/OurServices";
 import BudgetFooter from "./components/Budget/BudgetFooter";
 import FooterBanner from "./components/Footer/FooterBanner";
 import Partners from "./components/Partners/Partners";
-import Contact from "./components/Contact/Contact";
+ 
 import Footer from "./components/Footer/Footer";
 import OurValue from "./components/OurValue/OurValue"; 
+import CreateQuote from "./components/Contact/CreateQuote"; 
 
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
@@ -42,7 +43,8 @@ function App() {
   
 
   return (
-    <div className="App">
+   
+ <div className="App">
         <button  className="  chatButton" onClick={showChat}  >
             <img className="chatImg" src={chatIcon} />
 
@@ -63,6 +65,7 @@ function App() {
       <Impact/>
       <OurServices/>
       <Services/>
+     
       <About/>
       <Equipment/>
       <OurValue/>
@@ -70,7 +73,7 @@ function App() {
       <FooterBanner/>
       <Partners/>
       <div className="main-container container-form">
-          <Contact/>
+          <CreateQuote/>
       </div>
      
       <Footer/>
@@ -80,6 +83,9 @@ function App() {
     
      
     </div>
+      
+
+   
   );
 }
 AOS.init({

@@ -297,7 +297,9 @@
      @media (max-width: 730px) {
         padding: 0;
        } 
-
+    &__item {
+        padding: 5rem 6rem 0 6rem;
+    }
     &-fit {
         width:75% !important;
     }
@@ -306,6 +308,16 @@
          width:100%;
          padding-bottom: 1rem;
          border-bottom: 1px solid #dfe0eb;
+     }
+     p { 
+      
+            padding-bottom: 0.5rem;
+            margin: 0 0 0.8rem 0;
+            font-weight: 300;
+            font-size: 1.125rem;
+            color: white;
+            text-align: justify;
+       
      }
 
      h3 {
@@ -322,6 +334,16 @@
             width: 100%;
              justify-content: space-around;
              margin-bottom: 1rem;
+            
+             &-img10 {
+                width:400px  !important;
+                height:auto  !important;
+             }
+             img {
+                 width:200px;
+                 height:200px;
+                 margin-top: 1rem;
+             }
      }
       
 
@@ -575,7 +597,7 @@
     &_input {
         width: 100%;
          
-        margin: 0.6rem ;
+        margin: 0.6rem  0;
        border:0;
        padding:  1rem 0.5rem;
        border-radius: 5px;

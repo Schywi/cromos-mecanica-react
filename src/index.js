@@ -4,13 +4,57 @@ import './styles/css/style.css';
 import App from './App';
 import HomePt from "./componentsPt/Home/Home";
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
+import { setContext } from '@apollo/client/link/context';
+import { AUTH_TOKEN } from './constants';
+import ServiceEN from './components/Services/Service'
+import ServicePT from './componentsPt/Services/Service'
+
+import {
+  ApolloProvider,
+  ApolloClient,
+  createHttpLink,
+  InMemoryCache
+} from '@apollo/client';
+
+
+
+
+
+const httpLink = createHttpLink({
+  uri: 'http://localhost:4001'
+});
+
+
+const authLink = setContext((_, { headers }) => {
+  const token = true;
+  return {
+    headers: {
+      ...headers,
+      authorization: token ? `Bearer ${token}` : ''
+    }
+  };
+});
+
+
+const client = new ApolloClient({
+  link: authLink.concat(httpLink),
+  cache: new InMemoryCache()
+});
+
+
 
 ReactDOM.render(
   <BrowserRouter>
-    <Switch>
-            <Route path="/" exact={true} component={App} />
-            <Route path="/pt" component={HomePt} />
-    </Switch>
+
+             <ApolloProvider client={client}>
+             <Switch>
+               
+                 <Route exact path='/' component={App} />
+                 <Route exact path='/service/:id' component={ServiceEN} />
+                 <Route exact path='/pt' component={HomePt} />
+                 <Route exact path='/pt/service/:id' component={ServicePT} />
+             </Switch>
+              </ApolloProvider>
   </BrowserRouter>,
   document.getElementById('root')
 );

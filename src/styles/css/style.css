@@ -378,6 +378,9 @@ header {
     padding: 0;
   }
 }
+.services__item {
+  padding: 5rem 6rem 0 6rem;
+}
 .services-fit {
   width: 75% !important;
 }
@@ -386,6 +389,14 @@ header {
   width: 100%;
   padding-bottom: 1rem;
   border-bottom: 1px solid #dfe0eb;
+}
+.services p {
+  padding-bottom: 0.5rem;
+  margin: 0 0 0.8rem 0;
+  font-weight: 300;
+  font-size: 1.125rem;
+  color: white;
+  text-align: justify;
 }
 .services h3 {
   text-align: center;
@@ -400,6 +411,15 @@ header {
   width: 100%;
   justify-content: space-around;
   margin-bottom: 1rem;
+}
+.services__content-img10 {
+  width: 400px !important;
+  height: auto !important;
+}
+.services__content img {
+  width: 200px;
+  height: 200px;
+  margin-top: 1rem;
 }
 .services__items {
   position: relative;
@@ -580,7 +600,7 @@ header {
 }
 .form_input {
   width: 100%;
-  margin: 0.6rem;
+  margin: 0.6rem 0;
   border: 0;
   padding: 1rem 0.5rem;
   border-radius: 5px;
@@ -637,43 +657,43 @@ header {
     font-size: 0.8rem;
   }
 }
-.service1 {
-  background: url(../../img/34.jpeg) no-repeat center;
-  background-size: cover;
-}
-
 .service2 {
-  background: url(../../img/30.jpeg) no-repeat center;
+  background: url(../../img/s5.jpg) no-repeat center;
   background-size: cover;
 }
 
 .service3 {
-  background: url(../../img/31.jpeg) no-repeat center;
+  background: url(../../img/s4.jpg) no-repeat center;
   background-size: cover;
 }
 
 .service4 {
-  background: url(../../img/23.jpeg) no-repeat center;
+  background: url(../../img/s11.jpg) no-repeat center;
   background-size: cover;
 }
 
 .service5 {
-  background: url(../../img/20.jpeg) no-repeat center;
+  background: url(../../img/s12.jpg) no-repeat center;
   background-size: cover;
 }
 
 .service6 {
-  background: url(../../img/14.jpeg) no-repeat center;
+  background: url(../../img/s9.jpg) no-repeat center;
+  background-size: cover;
+}
+
+.service7 {
+  background: url(../../img/s7.jpg) no-repeat center;
   background-size: cover;
 }
 
 .service8 {
-  background: url(../../img/29.jpeg) no-repeat center;
+  background: url(../../img/s8.jpg) no-repeat center;
   background-size: cover;
 }
 
 .service9 {
-  background: url(../../img/s1.jpg) no-repeat center;
+  background: url(../../img/s6.jpg) no-repeat center;
   background-size: cover;
 }
 
@@ -682,58 +702,58 @@ header {
   background-size: cover;
 }
 
-.serviceF1 {
+.service11 {
   background: url(../../img/sf1.jpg) no-repeat center;
   background-size: cover;
 }
 
 .service12 {
-  background: url(../../img/s4.jpg) no-repeat center;
+  background: url(../../img/34.jpeg) no-repeat center;
   background-size: cover;
 }
 
 .service13 {
-  background: url(../../img/s5.jpg) no-repeat center;
+  background: url(../../img/s1.jpg) no-repeat center;
   background-size: cover;
 }
 
 .service14 {
-  background: url(../../img/s11.jpg) no-repeat center;
-  background-size: cover;
-}
-
-.service15 {
-  background: url(../../img/s12.jpg) no-repeat center;
-  background-size: cover;
-}
-
-.service16 {
-  background: url(../../img/s6.jpg) no-repeat center;
-  background-size: cover;
-}
-
-.service17 {
-  background: url(../../img/s7.jpg) no-repeat center;
-  background-size: cover;
-}
-
-.service18 {
-  background: url(../../img/s8.jpg) no-repeat center;
-  background-size: cover;
-}
-
-.service19 {
-  background: url(../../img/s9.jpg) no-repeat center;
-  background-size: cover;
-}
-
-.serviceH1 {
   background: url(../../img/sch1.jpg) no-repeat center;
   background-size: cover;
 }
 
-.serviceH2 {
+.service15 {
   background: url(../../img/sch2.jpeg) no-repeat center;
+  background-size: cover;
+}
+
+.service16 {
+  background: url(../../img/30.jpeg) no-repeat center;
+  background-size: cover;
+}
+
+.service17 {
+  background: url(../../img/31.jpeg) no-repeat center;
+  background-size: cover;
+}
+
+.service18 {
+  background: url(../../img/23.jpeg) no-repeat center;
+  background-size: cover;
+}
+
+.service19 {
+  background: url(../../img/20.jpeg) no-repeat center;
+  background-size: cover;
+}
+
+.service20 {
+  background: url(../../img/14.jpeg) no-repeat center;
+  background-size: cover;
+}
+
+.service21 {
+  background: url(../../img/29.jpeg) no-repeat center;
   background-size: cover;
 }
 

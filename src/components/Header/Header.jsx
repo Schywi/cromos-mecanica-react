@@ -14,11 +14,11 @@ const Header = (props) => {
             </div>
             <nav class="nav">
                 <ul class="nav__list">
-                    <li class="nav__item nav__item--active"><a href="#Home">Home</a></li>
-                    <li class="nav__item"><a href="#About">About</a></li>
-                    <li class="nav__item"><a href="#Services">Services</a></li>
-                    <li class="nav__item"><a href="#Equipment">Equipment</a></li>
-                    <li class="nav__item"><a href="#Contact">Contact</a></li>
+                    <li class="nav__item nav__item--active"><a href="/#Home">Home</a></li>
+                    <li class="nav__item"><a href="/#About">About</a></li>
+                    <li class="nav__item"><a href="/#Services">Services</a></li>
+                    <li class="nav__item"><a href="/#Equipment">Equipment</a></li>
+                    <li class="nav__item"><a href="/#clear-form">Contact</a></li>
                         <li class="nav__item">
                             <Link to="/"> 
                                 <img src={enIcon} alt="English Icon"/>

@@ -22,7 +22,7 @@ import OurServices from "../OurServices/OurServices";
 import BudgetFooter from "../Budget/BudgetFooter";
 import FooterBanner from "../Footer/FooterBanner";
 import Partners from "../Partners/Partners";
-import Contact from "../Contact/Contact";
+import CreateQuote from "../Contact/CreateQuote"; 
 import Footer from "../Footer/Footer";
 import OurValue from "../OurValue/OurValue"; 
 
@@ -41,44 +41,48 @@ function Home() {
 
 
   return (
-    <div className="App">
-        <button  className="  chatButton" onClick={showChat}  >
-            <img className="chatImg" src={chatIcon} />
+   
+ <div className="App">
+ <button  className="  chatButton" onClick={showChat}  >
+     <img className="chatImg" src={chatIcon} />
 
-        </button>
-       <div   id="showChat" >
-        <Chatbot
-          config={config}
-          actionProvider={ActionProvider}
-          messageParser={MessageParser}
-        />
-      </div>
-      <Header/>
-      <Banner/>
-    
+ </button>
+<div   id="showChat" >
+ <Chatbot
+   config={config}
+   actionProvider={ActionProvider}
+   messageParser={MessageParser}
+ />
+</div>
+<Header/>
+<Banner/>
 
-     
-      <Budget/>
-      <Impact/>
-      <OurServices/>
-      <Services/>
-      <About/>
-      <Equipment/>
-      <OurValue/>
-      <BudgetFooter/>
-      <FooterBanner/>
-      <Partners/>
-      <div className="main-container container-form">
-          <Contact/>
-      </div>
-     
-      <Footer/>
-      
-     
-     
-    
-     
-    </div>
+
+
+<Budget/>
+<Impact/>
+<OurServices/>
+<Services/>
+
+<About/>
+<Equipment/>
+<OurValue/>
+<BudgetFooter/>
+<FooterBanner/>
+<Partners/>
+<div className="main-container container-form">
+   <CreateQuote/>
+</div>
+
+<Footer/>
+
+
+
+
+
+</div>
+
+
   );
 }
 AOS.init({
