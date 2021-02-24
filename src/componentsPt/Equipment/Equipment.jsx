@@ -7,7 +7,7 @@ import eqp4 from '../../img/eqp4.jpg';
 
 const About = (props) => { 
  return (
-    <section class="main-container equipment" id="Equipment">
+    <section class="main-container equipment" id="Equipamentos">
         <h2 data-aos="fade-right"> 
             <strong>Equipamentos</strong>
         </h2>

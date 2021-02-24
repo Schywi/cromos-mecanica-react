@@ -81,83 +81,83 @@
      
      {      
          id: 2,
-         title: "For demolition",
+         title: "Para Demolidoras",
      },
      {      
         id: 3,
-        title: "For Steel Industries",
+        title: "Para Siderúrgicas",
     },
     {      
         id: 4,
-        title: "For Earthmoving",
+        title: "Para Terraplanagem",
     },
         {      
         id: 5,
-        title: "For Metallurgical ",
+        title: "Para Metalúrgicas",
     },
     {      
         id: 6,
-        title: "For Foundry",
+        title: "Para Fundição",
     },
     {      
         id: 7,
-        title: "For Refractories Industries",
+        title: "Para Refratários",
     },      
     {      
         id: 8,
-        title: "For Automotive ",
+        title: "Para Automobilística ",
     },
     {      
         id: 9,
-        title: "For Mining Industries",
+        title: "Para Mineradoras",
     },
     {      
         id: 10,
-        title: "Tooling",
+        title: "Ferramentaria",
     },
     {      
        id: 11,
-       title: "Parts Manufacturing ",
+       title: "Fabricação de Peças ",
    },
    {      
        id: 12,
-       title: "Manufacture of Heavy Machinery Attachments",
+       title: "Confeccção de Acessórios para Maquinas Pesadas",
    },
    {      
     id: 13,
-    title: "Hydraulic Components",
+    title: "Componentes Hidráulicos",
 },      
 {      
     id: 14,
-    title: " Hydraulic Cylinders",
+    title: "Cilindros Hidráulicos",
 },
 {      
     id: 15,
-    title: "Blades for Hydraulic Scissors",
+    title: "Lâminas para Tesoura Hidráulica",
 },
 {      
     id: 16,
-    title: "Reforms",
+    title: "Reformas",
 },
 {      
    id: 17,
-   title: "Maintenance ",
+   title: "Manutenções ",
 },
 {      
    id: 18,
-   title: "Recovery",
+   title: "Recuperação",
 },
 {      
     id: 19,
-    title: "Concerts",
+    title: "Concertos",
 },
 {      
  id: 20,
- title: "Assembly and disassembly of equipment",
+ title: "Montagem e desmontagem de equipamentos",
 },      
 {      
  id: 21,
- title: " Set Retrofiting ",
+ title: "Retrofiting de conjuntos",
 },
  ]
 

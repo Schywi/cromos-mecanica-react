@@ -17,7 +17,7 @@ const Services = (props) => {
         <div className="wrapServices">
            
             <Header/>
-                <div class="dark" id="Services">
+                <div class="dark">
                     {db.map((item) => {
                          let serviceid = window.location.pathname;
 

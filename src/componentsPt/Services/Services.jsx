@@ -4,13 +4,13 @@ import {db,db1} from '../db';
 
 const Services = (props) => { 
  return (
-    <div class="dark" id="Services">
+    <div class="dark" id="Serviços">
     <section class="main-container services">
         <h2 data-aos="fade-right">
-            <strong>Services Provided</strong>
+            <strong>Serviços Prestados</strong>
         </h2>
         <h3 data-aos="fade-right">
-            <strong>Solutions by Industry</strong>
+            <strong>Soluções por Industria</strong>
         </h3>
 
         <div class="services__content "> 
@@ -33,7 +33,7 @@ const Services = (props) => {
         </div>
 
         <h3 data-aos="fade-right">
-            <strong>Tooling Solutions</strong>
+            <strong>Soluções de Ferramentaria</strong>
         </h3>
             <div class="services__content services-fit "> 
 
@@ -55,7 +55,7 @@ const Services = (props) => {
         
        
         <h3 data-aos="fade-right">
-            <strong>Hydraulic Solutions</strong>
+            <strong>Soluções Hidráulicas</strong>
         </h3>
         <div class="services__content services-fit "> 
 
@@ -77,7 +77,7 @@ const Services = (props) => {
  
             
         <h3 data-aos="fade-right">
-            <strong>Machining Solutions</strong>
+            <strong>Soluções de Usinagem</strong>
         </h3>
         <div class="services__content services-fit "> 
 

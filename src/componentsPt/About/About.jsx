@@ -4,7 +4,7 @@ import React from "react";
 
 const About = (props) => { 
  return (
-    <section class="main-container main-responsive" id="About">
+    <section class="main-container main-responsive" id="Sobre">
         <div class="main-container__image  main-container__background-2" data-aos="fade-right" data-aos-delay="400">
         
             <div class="main-container__image-text" >

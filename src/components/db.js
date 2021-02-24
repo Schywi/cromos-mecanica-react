@@ -2,7 +2,7 @@
     {  
         service: {
             id: 2,
-            title: "Lâmina para Tesoura Hidráulica",
+            title: "Blade for Hydraulic Scissors",
             paragraph: [],
             image: [
                 "https://www.jamfhidraulica.com.br/projeto/jamf/arquivos/conteudo/thumbnail/lamina1.jpg",
@@ -22,8 +22,8 @@
     {  
         service:  {
             id: 3||4,
-            title: "Cilindro Hidráulico",
-            paragraph: ["Criado para gerar articulação entre partes e peças, os cilindros hidráulicos recebem alta pressão de óleo para realizar seus movimentos de precisão. Sua manutenção pode ser da simples troca de reparos e vedações à necessitdade de nova cromagem da haste, brunimento da camisa e até confecção de tampa, cabeçote e olhais. Tais serviços requerem muita perfeição e precisão nas medidas para que não haja perda de tempo e retrabalho. ",],
+            title: "Hydraulic Cylinder",
+            paragraph: [" Created to generate articulation between parts and pieces, hydraulic cylinders receive high oil pressure to perform their precision movements. Their maintenance can range from the simple replacement of repairs and seals to the need for new chrome plating of the rod, burnishing of the sleeve, and even making of the cover, head, and lugs. Such services require a lot of perfection and precision in the measurements so that no time is wasted and no rework takes place.",],
             image: [
                 "https://www.jamfhidraulica.com.br/projeto/jamf/arquivos/conteudo/thumbnail/cilindro1.jpg",
                 "https://www.jamfhidraulica.com.br/projeto/jamf/arquivos/conteudo/thumbnail/cilindro3.jpg",
@@ -36,11 +36,11 @@
     {  
         service: {
             id: 2,
-            title: "Sapatas para Equipamentos de Esteira",
+            title: "Crawler Equipment Crawler Shoes",
             paragraph: [
-                `As sapatas de esteira, fabricadas principalmente a partir de aço e borracha, são um tipo de material rodante para britadores, escavadeiras, demolidoras remotas e tratores. As sapatas standard dos equipamentos são dimensionadas para distribuir ao solo uma pressão referente ao peso total do equipamento, o que os garantem maior capacidade de tração em terrenos pouco aderentes.
+                ` Crawler shoes, manufactured mainly from steel and rubber, are a type of undercarriage for crushers, excavators, remote wreckers and tractors. The equipment's standard crawler shoes are sized to distribute to the ground a pressure relative to the total weight of the equipment, which guarantees them greater traction capacity on poorly adhered terrain.
                 `,
-                `As sapatas de borracha, geralmente utilizadas em equipamentos menores e mais ágeis, são destinadas a condição em que o piso não possa sofrer danos e/ou o local possui alguma limitação física. Já as sapatas de aço são mais utilizadas em equipamentos robustos. `,
+                `The rubber pads, generally used in smaller and more agile equipment, are intended for conditions in which the floor cannot be damaged and/or the location has some physical limitation. Steel shoes, on the other hand, are more commonly used in robust equipment. `,
             ],
             image: [ 
                 "https://www.jamfhidraulica.com.br/projeto/jamf/arquivos/conteudo/thumbnail/sapata1.jpg",
@@ -55,15 +55,12 @@
     {  
         service: {
             id: 10,
-            title: "Padronizados Conforme OMCR Componentes para Moldes e Elevação",
+            title: "Standardized According to OMCR Die and Lifting Components",
             paragraph: [
-                ` A linha OMCR Die Components oferece uma extraordinária variedade de itens de acordo com as normas das principais empresas automotivas. Graças ao amplo uso de sistemas informatizados de gestão, aos sistemas flexíveis de produção e à ampla disponibilidade de itens em nosso estoque, esta linha de produtos enfrenta exaustivamente as necessidades dos clientes e garante qualidade, confiabilidade e entrega rápida.
+                ` OMCR Die Components line offers an extraordinary variety of items according to the norms of the main automotive firms. Thanks to the widespread use of computerized management systems, to the flexible productions systems and to the wide availability of items in our stock, this range of products faces exhaustively customers needs and it ensures quality, reliability and quick delivery.`,
+                `Safety is the password of Lifting Elements line: certainty about the conformity of the used materials, checks executed a work of art and final careful inspection. Therefore those items are able to satisfy all the requirements about the handling of any size or weight die, under the whole safety. `,
 
-                `,
-                ` Segurança é a senha da linha Elementos de Elevação: certeza sobre a conformidade dos materiais usados, verificações executadas uma obra de arte e inspeção final cuidadosa. Portanto, esses itens são capazes de satisfazer todas as exigências sobre o manuseio de qualquer tamanho ou peso de molde, sob toda a segurança. 
-
-                `,
-                ` Fabricamos Pinos de Transporte, Bucha Espanhola, Chavestas, Centralizadores, Referimento, Munhão , Batentes, Localizadores dentre outros. `,
+                `   We manufacture Transport Pins, Spanish Bushings, Keys, Centralizers, Referencing, Trunnions, Stoppers, Locators, and many others. `,
             ],
            
                image: [ 
