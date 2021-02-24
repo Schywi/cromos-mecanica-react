@@ -18,7 +18,7 @@ const Header = (props) => {
                     <li class="nav__item"><a href="/#About">About</a></li>
                     <li class="nav__item"><a href="/#Services">Services</a></li>
                     <li class="nav__item"><a href="/#Equipment">Equipment</a></li>
-                    <li class="nav__item"><a href="/#clear-form">Contact</a></li>
+                    <li class="nav__item"><a href="/#Contact">Contact</a></li>
                         <li class="nav__item">
                             <Link to="/"> 
                                 <img src={enIcon} alt="English Icon"/>
