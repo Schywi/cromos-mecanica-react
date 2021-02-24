@@ -1,12 +1,12 @@
 import React from "react";
-
+import { Link } from 'react-router-dom';
 
 
 const BudgetFooter = () => { 
  return (
     <section class="budget budget__footer" data-aos="fade-in">
         <h3 class="budget__title">Request a quote</h3>
-        <a class="budget__link button button__contact" href="/#Contact">Contact us {'>'}</a>
+        <Link className="budget__link button button__contact" to="/#Contact">Contact us {'>'}</Link>
     </section>
 
        

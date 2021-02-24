@@ -962,6 +962,10 @@ header {
   color: #717171;
 }
 
+a {
+  cursor: pointer;
+}
+
 /* Button*/
 .serviceButton {
   top: -1rem;
