@@ -11,7 +11,7 @@ const FooterBanner = (props) => {
                 <div class="footer__contacts-information">
             
                     <ul>
-                        <li>     <h2>Our contacts</h2></li>
+                        <li>     <h2>Nossos contatos</h2></li>
                         <li>  
                             Rua Tomaz de Andrade, 41 B.Industrial Contagem-MG  <br/>
                             CEP: 32223-000
